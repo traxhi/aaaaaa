@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,900;1,800&display=swap');
+        *
+        {
+            margin: 0px;
+            background-color: #FEFFF5;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+        }
+          .teto
+    {
+        width: 100%;
+        height: 12vh;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+    } 
+    .escrita1
+    {
+        font-size: 20px;
+        
+    }
+        .invisivel
+        {
+            width: 50%;
+            height: 100%;
+        }
+        .escrita2
+    {
+        font-size: 20px;
+    }
+    .escrita3
+    {
+        font-size: 20px;
+    }
+    .escrita4
+    {
+        width: 50px;
+        font-size: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+    }
+    .globao
+    {
+        width: 20px;
+
+    }
+    .tetao
+    {
+        width: 30%;
+        height: 100%;
+        justify-content: space-between;
+        justify-items: center;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .embaixo
+    {
+        margin-left: 490px;
+        width: 30%;
+        height: 75vh;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        background-color: aqua;
+    }
+    .escrita1:hover
+    {
+        cursor: pointer;
+        color: blueviolet;
+    }
+    .escrita2:hover
+    {
+        cursor: pointer;
+        color: blueviolet;
+    }
+    .escrita3:hover
+    {
+        cursor: pointer;
+        color: blueviolet;
+    }
+    .escrita4:hover
+    {
+        cursor: pointer;
+        color: blueviolet;
+    }
+    .usuarioo
+    {
+        width: 80px;
+    }
+    .escritas
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: 40vh;
+        justify-content: space-around;
+    }
+    .texto
+    {
+        width: 410px;
+        height: 50px;
+    }
+    button
+    {
+        width: 350px;
+        height: 60px;
+        font-size: 12px;
+        justify-items: center;
+        align-items: center;
+        border-radius: 30px;
+        background-color: #CFE15D;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .botao
+    {
+        margin-top: 15px;
+        width: 100%;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        align-content: center;
+        align-items: center;
+    }
+    .final
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+    }
+    .registre
+    {
+        text-decoration: underline;
+    }
+    </style>
+</head>
+<body>
+    <div class="teto">
+        <img src="ScriptStorm.png">
+        <div class="invisivel"></div>
+        <div class="tetao">
+            <div class="escrita1">Início</div>
+            <div class="escrita2">Texto</div>
+            <div class="escrita3">Autores</div>
+            <div class="escrita4">
+                <img src="globe.png" class="globao">
+                Pt
+            </div>
+        </div>  
+    </div>
+    <div class="embaixo">
+        <div class="usuario">
+            <img src="usuario.png" class="usuarioo">
+        </div>
+        <div class="retangulo">
+            <div class="escritas">
+                <textarea class="texto" id="E-mail">E-mail</textarea>
+                <textarea class="texto" id="Senha">Senha</textarea>
+            </div>
+            <div class="botao">
+                <button>CONTINUAR</button>
+            </div>
+            <div class="final">
+                <div class="cadastro">Não tem cadastro?</div>
+                <div class="registre">Registre-se aqui!</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
